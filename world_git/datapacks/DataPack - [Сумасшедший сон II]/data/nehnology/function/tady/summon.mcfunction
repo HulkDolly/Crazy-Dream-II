@@ -1,0 +1,6 @@
+
+execute store result score *random1_4 main_score run random value 1..4
+execute if score *random1_4 main_score matches 1 run summon zombie -82.49 12.00 3.58 {DeathLootTable:none,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["iq.tady"],ArmorItems:[{},{},{},{id:"minecraft:potion",count:1,components:{"minecraft:custom_model_data":4,"minecraft:potion_contents":{custom_color:0}}}]}
+execute if score *random1_4 main_score matches 2 run summon zombie -82.54 12.00 -17.65 {DeathLootTable:none,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["iq.tady"],ArmorItems:[{},{},{},{id:"minecraft:potion",count:1,components:{"minecraft:custom_model_data":4,"minecraft:potion_contents":{custom_color:0}}}]}
+execute if score *random1_4 main_score matches 3 run summon zombie -62.24 12.00 -17.51 {DeathLootTable:none,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["iq.tady"],ArmorItems:[{},{},{},{id:"minecraft:potion",count:1,components:{"minecraft:custom_model_data":4,"minecraft:potion_contents":{custom_color:0}}}]}
+execute if score *random1_4 main_score matches 4 run summon zombie -62.64 12.00 3.53 {DeathLootTable:none,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["iq.tady"],ArmorItems:[{},{},{},{id:"minecraft:potion",count:1,components:{"minecraft:custom_model_data":4,"minecraft:potion_contents":{custom_color:0}}}]}

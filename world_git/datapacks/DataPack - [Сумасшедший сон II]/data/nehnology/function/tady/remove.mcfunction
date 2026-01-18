@@ -1,0 +1,1 @@
+kill @e[type=zombie,tag=iq.tady]
